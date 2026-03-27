@@ -1,0 +1,112 @@
+.history-container {
+  padding: 20px;
+}
+
+.history-container h2 {
+  margin-bottom: 20px;
+  color: #00d9ff;
+  font-size: 1.8rem;
+}
+
+.no-data {
+  text-align: center;
+  color: #888;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+.scans-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.scan-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+
+.scan-card:hover {
+  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.scan-card.high-risk {
+  border-left: 4px solid #e94560;
+}
+
+.scan-card.low-risk {
+  border-left: 4px solid #2ed573;
+}
+
+.scan-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.scan-id {
+  font-weight: bold;
+  color: #00d9ff;
+}
+
+.scan-date {
+  color: #888;
+}
+
+.scan-results {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.result-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.scan-card.high-risk .result-badge {
+  background: rgba(233, 69, 96, 0.2);
+  color: #ff6b6b;
+}
+
+.scan-card.low-risk .result-badge {
+  background: rgba(46, 213, 115, 0.2);
+  color: #2ed573;
+}
+
+.confidence {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}
+
+.download-btn {
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 217, 255, 0.1);
+  border: 1px solid #00d9ff;
+  color: #00d9ff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.download-btn:hover {
+  background: rgba(0, 217, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.loading {
+  text-align: center;
+  color: #888;
+  padding: 40px;
+  font-size: 1.1rem;
+}
