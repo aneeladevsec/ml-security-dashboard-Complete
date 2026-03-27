@@ -1,4 +1,4 @@
-# Day 1: AI Security Dashboard - 10 Day War Challenge
+# Day 3: AI Security Dashboard - 10 Day War Challenge
 
 ## Project Overview
 A real-time AI Security Dashboard with:
@@ -10,14 +10,14 @@ A real-time AI Security Dashboard with:
 
 ```
 10-Day-War/
-├── Day1-Backend/
+├── Day3-Backend/
 │   ├── app.py              # Flask API
 │   ├── model.py            # ML Model Class
 │   ├── requirements.txt    # Python dependencies
 │   ├── security_model.pkl  # Trained model (auto-generated)
 │   └── __pycache__/
 │
-└── Day1-Frontend/
+└── Day3-Frontend/
     ├── src/
     │   ├── components/
     │   │   ├── StatsCard.jsx
@@ -41,7 +41,7 @@ A real-time AI Security Dashboard with:
 ### Backend Setup
 
 ```powershell
-cd Day1-Backend
+cd Day3-Backend
 
 # Activate Python virtual environment
 venv\Scripts\activate
@@ -58,7 +58,7 @@ Backend will be running at: **http://localhost:5000**
 ### Frontend Setup
 
 ```powershell
-cd Day1-Frontend
+cd Day3-Frontend
 
 # Install dependencies (if not already done)
 npm install
@@ -204,7 +204,7 @@ FLASK_ENV=development
 VITE_API_URL=http://localhost:5000
 ```
 
-## Next Steps (Day 2+)
+## Next Steps (Day 3)
 
 - [ ] Add authentication (JWT)
 - [ ] Database integration (PostgreSQL)
@@ -215,7 +215,7 @@ VITE_API_URL=http://localhost:5000
 - [ ] Deployment to cloud
 
 ## Project Completed ✅
-**Status**: Day 1 Complete - Backend API + ML Model + React Dashboard
+**Status**: Day 3 Complete - Backend API + ML Model + React Dashboard
 
 **Total Time**: ~6 hours (Phase 1 + Phase 2 + Phase 3)
 
