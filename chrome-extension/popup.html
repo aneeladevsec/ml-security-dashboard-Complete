@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔒 AI Security</h1>
+      <div id="status" class="status">Checking...</div>
+    </header>
+
+    <div class="current-site">
+      <h3>Current Website</h3>
+      <p id="site-url">Loading...</p>
+      <div id="site-risk" class="risk-badge">Analyzing...</div>
+    </div>
+
+    <div class="features-section">
+      <h3>Security Features</h3>
+      <div id="features-list" class="features-list">
+        <div class="feature-item">
+          <span>🔐 HTTPS</span>
+          <span id="feature-https">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>📜 SSL Certificate</span>
+          <span id="feature-ssl">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>🛡️ Mixed Content</span>
+          <span id="feature-mixed">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>🔑 Headers</span>
+          <span id="feature-headers">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>📊 Domain Age</span>
+          <span id="feature-domain">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>🔗 Redirects</span>
+          <span id="feature-redirect">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>📝 Forms</span>
+          <span id="feature-forms">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>🍪 Cookies</span>
+          <span id="feature-cookies">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>📡 Third-party</span>
+          <span id="feature-third">Checking...</span>
+        </div>
+        <div class="feature-item">
+          <span>⚡ Load Time</span>
+          <span id="feature-load">Checking...</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="ml-prediction">
+      <h3>🤖 ML Prediction</h3>
+      <div id="ml-result" class="ml-result">
+        <p>Click analyze to get AI prediction</p>
+      </div>
+      <button id="analyze-btn" class="analyze-btn">
+        🔍 Analyze with AI
+      </button>
+    </div>
+
+    <div class="actions">
+      <button id="dashboard-btn" class="action-btn">
+        📊 Open Dashboard
+      </button>
+      <button id="history-btn" class="action-btn secondary">
+        📜 View History
+      </button>
+    </div>
+
+    <footer>
+      <p>Connected to: <span id="api-status">Checking...</span></p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
